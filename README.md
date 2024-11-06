@@ -65,5 +65,4 @@ If you use the MAE dataset in your research, please cite the following paper:
   journal={arXiv preprint arXiv:2409.18680},
   year={2024}
 }
-}
 ```
