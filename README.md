@@ -6,6 +6,8 @@ This repo contains the code and data of:
 
 ## Dataset
 
+<img src="./images/evaluation.png" width="96%" height="96%">
+
 The data used in this project is available at [MAE Dataset](https://huggingface.co/datasets/hlt-lab/mae) hosted on Hugging Face.
 
 You can access it directly via the link and integrate it into your project by using the Hugging Face `datasets` library.
