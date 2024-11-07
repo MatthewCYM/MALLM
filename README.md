@@ -4,11 +4,26 @@ This repo contains the code and data of:
 [Beyond Single-Audio: Advancing Multi-Audio Processing in Audio Large Language Models](https://arxiv.org/abs/2409.18680)
 
 
-## Dataset
+## Multi-Audio Training
+
+The training data used in this project in available at [MALLM-Training Dataset](https://huggingface.co/datasets/hlt-lab/mallm-training)  hosted on Hugging Face.
+
+### How to Use the Dataset
+
+To load the dataset in your Python environment:
+
+```python
+from datasets import load_dataset
+
+# Load the MALLM training dataset
+dataset = load_dataset("hlt-lab/mallm-training")
+```
+
+## Multi-Audio Evaluation
 
 <img src="./images/evaluation.png" width="96%" height="96%">
 
-The data used in this project is available at [MAE Dataset](https://huggingface.co/datasets/hlt-lab/mae) hosted on Hugging Face.
+The evaluation data used in this project is available at [MAE Dataset](https://huggingface.co/datasets/hlt-lab/mae) hosted on Hugging Face.
 
 You can access it directly via the link and integrate it into your project by using the Hugging Face `datasets` library.
 
@@ -19,7 +34,7 @@ To load the dataset in your Python environment:
 ```python
 from datasets import load_dataset
 
-# Load the MAE dataset
+# Load the MAE dataset with subset
 dataset = load_dataset("hlt-lab/mae", 'meld-dialog')
 ```
 
